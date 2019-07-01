@@ -1,0 +1,202 @@
+/* 一屏的高度 */
+html,body,.main{
+    height:100%;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}  
+#next{
+    width:0.05rem;
+    height:0.42rem;
+    background:url("../images/arrow.png") center center no-repeat;
+    background-size:cover;
+    bottom:0.4rem;
+    left:50%;
+    margin-left:-0.25rem;
+    top:auto;
+    animation: fadeInUp 1s linear infinite;
+}
+
+
+
+@-webkit-keyframes fadeInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+/* 第一页 */
+.page1>img{
+    position:absolute;
+}
+.page1{
+   background:white;
+   background-size:cover;
+   position:relative;
+   left: 0;
+   width:7rem;
+  height:12rem;
+}
+
+
+
+
+
+
+/* 第二页 */
+.page2{
+  position:relative;
+}
+.page2>img{
+  position:absolute;
+}
+.page2{
+  background: khaki;
+  background-size:cover;
+}
+.textContent{
+  position:absolute;
+  font-size:3rem;
+  left:11rem;
+  top:3.5rem;
+  line-height:3rem;
+  color: rgb(238, 237, 234);
+  z-index: 999;
+}
+.zuopin3{
+  width:2.5rem;
+  height:4.5rem;
+  left:0.8rem;
+ padding-top: 300px;
+}
+
+.zuopin1{
+  width:2.5rem;
+  height:4rem;
+  left:0.8rem;
+ padding-top: 60px;
+}
+
+.zuopin2{
+  width:2.5rem;
+  height:4rem;
+  left:50%;
+  padding-top: 60px;
+  
+}
+.zuopin4{
+  width:2.5rem;
+  height:4.5rem;
+  right:0.8rem;
+ padding-top: 300px;
+ 
+}
+
+
+/* page3 */
+.page3{
+  position:relative;
+  background: khaki;
+  background-size:100% 100%;
+}
+.page3>img{
+  position: absolute;
+}
+.zuopin5{
+  width:3.5rem;
+  height:6rem;
+  left:5%;
+  padding-top: 10px;
+}
+.zuopin6{
+  width:3.5rem;
+  height:6rem;
+  left:55%;
+  padding-top: 10px;
+}
+.zuopin7{
+  width:2.5rem;
+  height:4rem;
+  left:55%;
+  padding-top: 380px;
+}
+.zuopin8{
+  width:2.5rem;
+  height:4rem;
+  left:5%;
+  padding-top:380px;
+}
+/* page4 */
+.page4{
+  position:relative;
+  background: khaki;
+  background-size:100% 100%;
+}
+.page4>img{
+  position: absolute;
+}
+.zuopin9{
+  width:3.5rem;
+  height:4rem;
+  left:5%;
+  padding-top: 10px;
+}
+.zuopin10{
+  width:4.5rem;
+  height:3rem;
+  left:30%;
+  padding-top:250px;
+ 
+}
+.zuopin11{
+  width:5rem;
+  height:3rem;
+  left:5%;
+  padding-top:460px;
+}
+/* page5 */
+.page5{
+  position:relative;
+  background: khaki;
+  background-size:100% 100%;
+}
+.page5>img{
+  position: absolute;
+}
+.zuopin12{
+  width:4.5rem;
+  height:7rem;
+  left:5%;
+  padding-top: 10px;
+}
+.zuopin13{
+  width:4.5rem;
+  height:7rem;
+  left:30%;
+  padding-top:390px;
+ 
+}
